@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Biliards</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://pngimg.com/uploads/billiard/billiard_PNG84984.png" type="image/x-icon">  
+  </head>
+
+  <body>
+    <div id="start-screen" class="morph">
+      <div id="start-screen-content">
+        <h1>Car Biliards</h1>
+        <div class="flexcontainer">
+          <div class="row">
+            <div class="instructions">Play pool by knocking billiard balls into pockets by hitting them with your car</div>
+            <div class="instructions">
+              <img src="https://th.bing.com/th/id/R.0abc46304f12d162682508d282c2b905?rik=MczAFFMK1nqKOQ&riu=http%3a%2f%2fdelmarvabilliards.com%2fwp-content%2fuploads%2f2019%2f01%2fcropped-delmarva-billiards-1.jpg&ehk=D%2fE1dTClonNuvm%2faVkz%2fTtGmDM3OOkgn5YufXBaDEKY%3d&risl=&pid=ImgRaw&r=0" height="100" width="94">
+            </div>
+          </div>
+          <div class="row">
+            <div class="instructions">
+              <img src="https://billiardbeast.com/wp-content/uploads/2020/04/Canva-Rack-of-pool-balls-768x512.jpg" height="89" width="148" >
+            </div>
+            <div class="instructions">Knock in all of the striped balls before the computer player knocks in all of the solids</div>
+          </div>
+          <div class="row">
+            <div class="instructions">Use the arrow keys to drive the car and use the spacebar to boost</div>
+            <div class="instructions">
+              <img src="http://res.cloudinary.com/dkw0kkkgd/image/upload/v1481315302/Arrow-keys_utpewf.jpg" height="60" width="92">
+            </div>
+          </div>
+          <div class="row">
+            <div class="instructions">
+              <img src="https://cdn.shopify.com/s/files/1/0667/1555/products/KGrHqRHJEEE_WUp8yGCBQZcNZRnsw_60_1_69a3106f-ab2a-4ad2-a80c-996e1f03361f_large.jpeg?v=1462115930" height="70" width="140">
+            </div>
+            <div class="instructions">Avoid hitting the <strong>8 Ball</strong> or your car will be disabled for 8 seconds!</div>
+          </div>
+        </div>
+        <div class="textboxes">
+        <input type="text" placeholder="Your Name" id="playerName"></input>
+        <input type="text" placeholder="Enemy Name" id="enemyName"></input>
+        </div>
+        <button id="play">Play</button>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.12/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
+
+    <script src="colors.js"></script>
+    <script src="wall.js"></script>
+    <script src="bumper.js"></script>
+    <script src="pocket.js"></script>
+    <script src="ball.js"></script>
+    <script src="car.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
